@@ -8,7 +8,9 @@ updates:
   - package-ecosystem: npm
     directory: "/javascript"
     ignore:
-        - dependency-name: "lodash"
+      - dependency-name: "lodash:*"
+        # Ignore versions of Lodash that are equal to or greater than 1.0.0
+        versions: [ ">=1.0.0" ]
     schedule:
       interval: "weekly"
   - package-ecosystem: bundler
