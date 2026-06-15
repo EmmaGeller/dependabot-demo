@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: npm
     directory: "/javascript"
     ignore:
-      - dependency-name: "lodash:*"
+      - dependency-name: "lodash*"
     schedule:
       interval: "weekly"
   - package-ecosystem: bundler
