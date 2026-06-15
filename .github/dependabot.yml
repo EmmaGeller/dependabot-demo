@@ -9,7 +9,7 @@ updates:
     directory: "/javascript"
     ignore:
       - dependency-name: "lodash@*"
-        versions: ["4.17.20"]
+        versions: [">=4.17.20"]
     schedule:
       interval: "weekly"
   - package-ecosystem: bundler
