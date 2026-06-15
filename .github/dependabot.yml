@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: npm
     directory: "javascript"
     ignore:
-        - dependency-name: "hot-formula-*"
+        - dependency-name: "jstat"
     schedule:
       interval: "weekly"
   - package-ecosystem: bundler
